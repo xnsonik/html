@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Space Grotesk";
+}
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 76px 100px;
+}
+.navbar .left__content .logo img {
+  width: 219.54px;
+  height: 56px;
+  padding: 10px, 0px, 10px, 0px;
+  gap: 10px;
+}
+.navbar .right__content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .right__content .list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .right__content .list li {
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.navbar .right__content button {
+  width: 231px;
+  height: 68px;
+  background: none;
+  border: 1px solid #191A23;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container {
+  padding: 0 100px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .left__content h1 {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0;
+}
+.banner .left__content p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 35px 0;
+}
+.banner .left__content button {
+  width: 264px;
+  height: 68px;
+  font-size: 20px;
+  color: white;
+  background: #191A23;
+  border-radius: 14px;
+  border: 0;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+.logos img {
+  filter: grayscale(1);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+.title h1 {
+  height: 51px;
+  border-radius: 7px;
+  background: #B9FF66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 7px 0px 7px;
+  margin-right: 40px;
+}
+.title p {
+  font-size: 18px;
+}
+
+.services .cards {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.services .cards .card {
+  width: 500px;
+  height: 220px;
+  background: #F3F3F3;
+  box-shadow: 0 5px 1px #191A23;
+  border-radius: 45px;
+  border: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.services .cards .card:nth-child(2) {
+  background: #B9FF66;
+}
+.services .cards .card:nth-child(2) .left__content .title h2 {
+  width: 195px;
+  background: white;
+}
+.services .cards .card:nth-child(2) .left__content .title h2:nth-child(2) {
+  width: 162px;
+}
+.services .cards .card:nth-child(3) {
+  background: #191A23;
+}
+.services .cards .card:nth-child(3) .left__content .title h2 {
+  width: 183px;
+  background: white;
+}
+.services .cards .card:nth-child(3) .left__content .title h2:nth-child(2) {
+  width: 146px;
+}
+.services .cards .card:nth-child(3) .left__content .more p {
+  color: white;
+}
+.services .cards .card:nth-child(4) .left__content .title h2 {
+  width: 76px;
+}
+.services .cards .card:nth-child(4) .left__content .title h2:nth-child(2) {
+  width: 146px;
+}
+.services .cards .card:nth-child(5) {
+  background: #B9FF66;
+}
+.services .cards .card:nth-child(5) .left__content .title h2 {
+  width: 120px;
+  background: white;
+}
+.services .cards .card:nth-child(5) .left__content .title h2:nth-child(2) {
+  width: 125px;
+}
+.services .cards .card:nth-child(6) {
+  background: #191A23;
+}
+.services .cards .card:nth-child(6) .left__content .title h2 {
+  width: 199px;
+  background: #B9FF66;
+}
+.services .cards .card:nth-child(6) .left__content .title h2:nth-child(2) {
+  width: 126px;
+}
+.services .cards .card:nth-child(6) .left__content .more p {
+  color: white;
+}
+.services .cards .card .left__content {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.services .cards .card .left__content .title {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.services .cards .card .left__content .title h2 {
+  width: 207px;
+  height: 38px;
+  background: #B9FF66;
+  padding: 0 10px;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 7px;
+  gap: 10px;
+  margin: 0;
+}
+.services .cards .card .left__content .title h2:nth-child(2) {
+  width: 182px;
+}
+.services .cards .card .left__content .more {
+  display: flex;
+  align-items: center;
+}
+.services .cards .card .left__content .more p {
+  font-size: 20px;
+  margin-left: 15px;
+}
+.services .cards .card .right__content img {
+  width: 210px;
+  height: auto;
+  object-fit: cover;
+}
+
+.proposal {
+  height: 347px;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #F3F3F3;
+  border-radius: 45px;
+}
+.proposal .left__content {
+  margin: 0 60px;
+}
+.proposal .left__content h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.proposal .left__content p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.proposal .left__content button {
+  width: 288px;
+  height: 68px;
+  font-size: 20px;
+  color: white;
+  background: #191A23;
+  border-radius: 14px;
+  border: 0;
+}
+
+.studies {
+  margin-top: 120px;
+}
+.studies .case {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #191A23;
+  padding: 70px 60px 70px 60px;
+  border-radius: 45px;
+  margin-top: 80px;
+}
+.studies .case div {
+  position: relative;
+}
+.studies .case div::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: white;
+  position: absolute;
+  right: -40%;
+  top: 0;
+}
+.studies .case div p {
+  color: white;
+}
+.studies .case div .more {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.studies .case div .more p {
+  color: #B9FF66;
+  font-size: 20px;
+}
+
+.process {
+  margin-top: 140px;
+}
+.process .dropdowns {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.process .dropdowns .drop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 45px;
+  background: #F3F3F3;
+  box-shadow: 0 5px 1px #191A23;
+  padding: 0 60px;
+}
+.process .dropdowns .drop .left__content {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.process .dropdowns .drop .left__content h1 {
+  font-size: 60px;
+}
+.process .dropdowns .drop .left__content p {
+  font-size: 30px;
+}
